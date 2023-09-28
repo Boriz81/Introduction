@@ -1,0 +1,7 @@
+D:\Visual Studio\Project1\Introduction\Calcul\bin\Debug\Calcul.exe.config
+D:\Visual Studio\Project1\Introduction\Calcul\bin\Debug\Calcul.exe
+D:\Visual Studio\Project1\Introduction\Calcul\bin\Debug\Calcul.pdb
+D:\Visual Studio\Project1\Introduction\Calcul\obj\Debug\Calcul.csproj.AssemblyReference.cache
+D:\Visual Studio\Project1\Introduction\Calcul\obj\Debug\Calcul.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Project1\Introduction\Calcul\obj\Debug\Calcul.exe
+D:\Visual Studio\Project1\Introduction\Calcul\obj\Debug\Calcul.pdb

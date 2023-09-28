@@ -1,0 +1,7 @@
+D:\Visual Studio\Project1\Introduction\Introduction\bin\Debug\Introduction.exe.config
+D:\Visual Studio\Project1\Introduction\Introduction\bin\Debug\Introduction.exe
+D:\Visual Studio\Project1\Introduction\Introduction\bin\Debug\Introduction.pdb
+D:\Visual Studio\Project1\Introduction\Introduction\obj\Debug\Introduction.csproj.AssemblyReference.cache
+D:\Visual Studio\Project1\Introduction\Introduction\obj\Debug\Introduction.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Project1\Introduction\Introduction\obj\Debug\Introduction.exe
+D:\Visual Studio\Project1\Introduction\Introduction\obj\Debug\Introduction.pdb
