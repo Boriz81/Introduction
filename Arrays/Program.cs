@@ -104,6 +104,14 @@ namespace Arrays
 					}
 				
 			};
+
+			for (int i = 0; i < jagged_arr_2.Length; i++)
+			{ 
+				
+					Console.Write(jagged_arr_2 + "\t");
+				
+			}
+
 		}
 	}
 }
