@@ -13,7 +13,7 @@ namespace Arrays
 {
 	internal class Program
 	{
-		  
+		static readonly string delimiter = "\n-------------------------------------------------\n";  
 		static void Main(string[] args)
 		{
 			
@@ -40,10 +40,25 @@ namespace Arrays
 			}
             Console.WriteLine();
             Console.WriteLine(arr.Rank);
-
-			int sum = arr.Sum();
+            Console.WriteLine(delimiter);
+            int sum = arr.Sum();
 			Console.WriteLine("Сумма всех элементов массива: " + sum);
+			
+			int temp = 0;
+			int result;
 
+			for (int i = 0; i < n; i++)
+			{
+				temp = temp + arr[i];
+			}
+
+			result = temp / n;
+
+			Console.WriteLine("средне-арифетическое массива: " + result);
+
+			Console.WriteLine("Элемент с минимальным значением: " + arr.Min());
+			Console.WriteLine("Элемент с максимальным значением: " + arr.Max());
+			Console.WriteLine(delimiter);
 			////////////////////////////////////////////////////////////////////////
 
 			Console.Write("Введите количество строк: ");
@@ -75,7 +90,24 @@ namespace Arrays
 				Console.Write(i+"\t");
 			}
             Console.WriteLine();
+			
+			
+			/*
+			
+			int sum_r = 0;
+			int sum_c = 0;
+			int [][] temp_arr2;
+			for (int i = 0; i < rows; i++)
+			{
+				for (int j = 0; j < cols; j++)
+				{
+					temp_arr2 = temp_arr2 + i_arr_2[i, j];
+				}
+			}
 
+			*/
+	
+			Console.WriteLine(delimiter);
 			/////////////////////////////////////////////////////////////////////////////////
 
 			int[][] jagged_arr = new int[][]
