@@ -13,7 +13,7 @@ namespace Arrays
 {
 	internal class Program
 	{
-		  
+		static readonly string delimiter = "\n--------------------------------------------\n";
 		static void Main(string[] args)
 		{
 			
@@ -40,9 +40,9 @@ namespace Arrays
 			}
             Console.WriteLine();
             Console.WriteLine(arr.Rank);
-            
+            Console.WriteLine(delimiter);
 
-			////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////
 
             Console.Write("Введите количество строк: ");
 			int rows = Convert.ToInt32(Console.ReadLine());
@@ -73,10 +73,10 @@ namespace Arrays
 				Console.Write(i+"\t");
 			}
             Console.WriteLine();
+            Console.WriteLine(delimiter);
+            /////////////////////////////////////////////////////////////////////////////////
 
-			/////////////////////////////////////////////////////////////////////////////////
-
-			int[][] jagged_arr = new int[][]
+            int[][] jagged_arr = new int[][]
 			{
 				new int[]{ 3, 5, 8, 13, 21},
 				new int[]{ 34, 55, 89},
@@ -92,8 +92,8 @@ namespace Arrays
                 }
                 Console.WriteLine();
             }
-
-			int[][,] jagged_arr_2 = new int[][,]
+            Console.WriteLine(delimiter);
+            int[][,] jagged_arr_2 = new int[][,]
 			{
 				i_arr_2,
 				
@@ -104,6 +104,7 @@ namespace Arrays
 					}
 				
 			};
+
 		}
 	}
 }
