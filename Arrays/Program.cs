@@ -40,11 +40,13 @@ namespace Arrays
 			}
             Console.WriteLine();
             Console.WriteLine(arr.Rank);
-            
+
+			int sum = arr.Sum();
+			Console.WriteLine("Сумма всех элементов массива: " + sum);
 
 			////////////////////////////////////////////////////////////////////////
 
-            Console.Write("Введите количество строк: ");
+			Console.Write("Введите количество строк: ");
 			int rows = Convert.ToInt32(Console.ReadLine());
 			Console.Write("Введите количество элементов строки: ");
 			int cols = Convert.ToInt32(Console.ReadLine());
