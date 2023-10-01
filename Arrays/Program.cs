@@ -2,6 +2,9 @@
 // К. в с# называются "коллекциями"
 // 
 
+
+//last arr out
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -104,6 +107,8 @@ namespace Arrays
 					}
 				
 			};
+
+			
 
 		}
 	}
