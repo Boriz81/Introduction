@@ -1,0 +1,7 @@
+D:\Visual Studio\Project1\Introduction\TransferParameters\bin\Debug\TransferParameters.exe.config
+D:\Visual Studio\Project1\Introduction\TransferParameters\bin\Debug\TransferParameters.exe
+D:\Visual Studio\Project1\Introduction\TransferParameters\bin\Debug\TransferParameters.pdb
+D:\Visual Studio\Project1\Introduction\TransferParameters\obj\Debug\TransferParameters.csproj.AssemblyReference.cache
+D:\Visual Studio\Project1\Introduction\TransferParameters\obj\Debug\TransferParameters.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Project1\Introduction\TransferParameters\obj\Debug\TransferParameters.exe
+D:\Visual Studio\Project1\Introduction\TransferParameters\obj\Debug\TransferParameters.pdb

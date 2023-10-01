@@ -27,7 +27,7 @@ namespace Enumerations
 			{
 				Console.WriteLine($"{distNames[i]} \t {distValues[i]}");
             }
-            Console.WriteLine(Enum.GetUnderlyingType(typeof(DistanceFromSun))).FullName();
+            Console.WriteLine((Enum.GetUnderlyingType(typeof(DistanceFromSun))).FullName);
         }
 		enum DayOfWeek { Sunday, Monday, Tuesday, Wendsday, Thursday, Friday, Saturday };
 		enum DistanceFromSun : ulong 
